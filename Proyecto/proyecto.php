@@ -1,5 +1,7 @@
 <?php
-echo '<link rel="stylesheet" href="estilos.css" type="text/css">';
+$mes= $_POST["MES"];
+$dia= $_POST["DIA"];
+/*echo '<link rel="stylesheet" href="estilos.css" type="text/css">';
   $fichero= fopen("D:\\xampp\\apache\\logs\\error.log", "r");
  echo "<textarea>";
  while (!feof($fichero)){
@@ -7,5 +9,9 @@ echo '<link rel="stylesheet" href="estilos.css" type="text/css">';
      echo $linea;
  } 
  fclose($fichero);
- echo "</textarea>"; 
+ echo "</textarea>"; */
+
+$logs = "mes dia"
+$partir = explode(" "$logs);
+
 ?>
